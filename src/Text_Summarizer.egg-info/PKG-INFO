@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Text-Summarizer
+Version: 0.0.0
+Summary: A small python package for NLP app
+Home-page: https://github.com/OPrabal/Text-Summarizer
+Author: OPrabal
+Author-email: prabalkumaroruganti@gmail.com
+Project-URL: Bug Tracker, https://github.com/OPrabal/Text-Summarizer/issues
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# Text Summarizer
