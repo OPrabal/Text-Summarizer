@@ -106,3 +106,220 @@ Source-Age: 0
 [2026-04-28 17:00:46,400: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2026-05-04 13:52:01,724: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 13:52:01,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 13:52:01,750: INFO: common: created directory at: artifacts]
+[2026-05-04 13:52:57,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 13:52:57,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 13:52:57,351: INFO: common: created directory at: artifacts]
+[2026-05-04 13:57:12,936: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 13:57:12,939: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 13:57:12,940: INFO: common: created directory at: artifacts]
+[2026-05-04 13:58:29,183: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 13:58:29,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 13:58:29,187: INFO: common: created directory at: artifacts]
+[2026-05-04 14:08:31,405: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:08:31,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:08:31,409: INFO: common: created directory at: artifacts]
+[2026-05-04 14:10:22,949: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:10:22,951: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:10:22,952: INFO: common: created directory at: artifacts]
+[2026-05-04 14:12:51,645: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:12:51,646: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:12:51,648: INFO: common: created directory at: artifacts]
+[2026-05-04 14:13:33,505: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:13:33,507: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:13:33,508: INFO: common: created directory at: artifacts]
+[2026-05-04 14:22:20,971: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:22:20,973: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:22:20,975: INFO: common: created directory at: artifacts]
+[2026-05-04 14:22:39,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:22:39,350: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:22:39,351: INFO: common: created directory at: artifacts]
+[2026-05-04 14:23:45,849: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:23:45,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:23:45,853: INFO: common: created directory at: artifacts]
+[2026-05-04 14:26:15,036: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-04 14:26:15,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-04 14:26:15,040: INFO: common: created directory at: artifacts]
+[2026-05-04 14:26:15,041: INFO: common: created directory at: artifacts/data_validation]
+[2026-05-05 13:07:02,154: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-05 13:07:02,172: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:07:02,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:07:02,180: INFO: common: created directory at: artifacts]
+[2026-05-05 13:07:02,181: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-05 13:07:02,181: ERROR: main: "'ConfigBox' object has no attribute 'source_url'"]
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'source_URL'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_URL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'source_URL'. Did you mean: 'source_Url'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_URL'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'source_url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'source_url'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'source_url'. Did you mean: 'source_Url'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\main.py", line 10, in <module>
+    data_ingestion.main()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\src\textSummarizer\pipeline\stage_01_data_ingestion.py", line 12, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\src\textSummarizer\config\configuration.py", line 27, in get_data_ingestion_config
+    source_URL=config.source_URL,
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\praba\anaconda3\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'source_url'". Did you mean: 'source_Url'?
+[2026-05-05 13:11:15,650: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-05 13:11:15,652: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:11:15,653: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:11:15,653: INFO: common: created directory at: artifacts]
+[2026-05-05 13:11:15,654: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-05 13:11:15,654: ERROR: main: DataIngestionConfig.__init__() got an unexpected keyword argument 'source_URL'. Did you mean 'source_Url'?]
+Traceback (most recent call last):
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\main.py", line 10, in <module>
+    data_ingestion.main()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\src\textSummarizer\pipeline\stage_01_data_ingestion.py", line 12, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\src\textSummarizer\config\configuration.py", line 25, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+        root_dir=config.root_dir,
+    ...<2 lines>...
+        unzip_dir=config.unzip_dir
+    )
+TypeError: DataIngestionConfig.__init__() got an unexpected keyword argument 'source_URL'. Did you mean 'source_Url'?
+[2026-05-05 13:15:54,478: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-05 13:15:54,480: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:15:54,481: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:15:54,482: INFO: common: created directory at: artifacts]
+[2026-05-05 13:15:54,482: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-05 13:16:00,963: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F1D8:8AD63:118FC4:2E8F4E:69F9A033
+Accept-Ranges: bytes
+Date: Tue, 05 May 2026 07:45:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210094-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1777967155.391185,VS0,VE1189
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b2fcdb1c224f974fd562689324524ec3248e3ec5
+Expires: Tue, 05 May 2026 07:50:56 GMT
+Source-Age: 1
+
+]
+[2026-05-05 13:16:01,096: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-05 13:16:01,096: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-05-05 13:16:01,098: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:16:01,098: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:16:01,099: INFO: common: created directory at: artifacts]
+[2026-05-05 13:16:01,099: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\main.py", line 21, in <module>
+    data_validation.main()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\praba\Documents\Prabal\Content-Summarizer\Text-Summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 12, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'. Did you mean: 'get_data_ingestion_config'?
+[2026-05-05 13:39:17,312: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-05 13:39:17,318: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:39:17,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:39:17,319: INFO: common: created directory at: artifacts]
+[2026-05-05 13:39:17,320: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-05 13:39:17,320: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2026-05-05 13:39:17,454: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-05 13:39:17,455: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-05-05 13:39:17,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:39:17,458: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:39:17,458: INFO: common: created directory at: artifacts]
+[2026-05-05 13:39:17,459: INFO: common: created directory at: artifacts/data_validation]
+[2026-05-05 13:39:17,461: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-05-05 13:49:37,508: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-05 13:49:37,516: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:49:37,522: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:49:37,523: INFO: common: created directory at: artifacts]
+[2026-05-05 13:49:37,523: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-05-05 13:49:37,523: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2026-05-05 13:49:37,654: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-05 13:49:37,655: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2026-05-05 13:49:37,656: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-05-05 13:49:37,657: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-05-05 13:49:37,657: INFO: common: created directory at: artifacts]
+[2026-05-05 13:49:37,658: INFO: common: created directory at: artifacts/data_validation]
+[2026-05-05 13:49:37,660: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
